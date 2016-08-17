@@ -1,0 +1,136 @@
+/**{outline:1px solid rgba(255,0,0,0.3);}*/
+.fondo {
+  background-image: url("../image/banner.jpg");
+  background-position: right bottom;
+  color: #fff; }
+
+.capa {
+  background-color: rgba(49, 52, 52, 0.8);
+  padding: 1% 0% 0%; }
+
+.tamano_icn {
+  font-size: 35px;
+  color: #2065DE; }
+
+.titulo {
+  margin: 15%; }
+
+.spac_lados {
+  margin: 0% 2%; }
+
+.fondo_celes {
+  background-color: rgba(30, 91, 176, 0.6);
+  background: rgba(30, 91, 176, 0.6);
+  color: #fff; }
+
+.btp {
+  margin: 3% 0%; }
+
+.subtitulos {
+  margin: 4%;
+  color: #2065DE; }
+
+.color_blu {
+  color: #2065DE; }
+
+.color_white {
+  color: #fff; }
+
+.icono_fin {
+  margin-top: 7%; }
+
+hr {
+  background-color: #A0A0A0;
+  margin-top: -4%; }
+
+.tam_lg {
+  width: 40%; }
+
+.mg_cent {
+  margin-left: 40%; }
+
+.img_lap {
+  -webkit-filter: contrast(50%);
+  z-index: 1;
+  position: absolute;
+  width: 97%;
+  height: 89%; }
+
+.icon {
+  font-size: 300%;
+  background: #58A5FF;
+  color: #fff;
+  border-radius: 100%; }
+
+.derecha {
+  margin: 9% 0% 0% 99%;
+  z-index: 2;
+  position: relative; }
+
+.derecha_icon {
+  padding-top: 9%;
+  margin: 1% 0% 0% 94%;
+  z-index: 2;
+  position: relative; }
+
+.mga6 {
+  margin: 6% 0%; }
+
+.mgb5 {
+  margin-bottom: 5%; }
+
+.mgle4 {
+  padding-left: 4%; }
+
+.imgjov {
+  width: 100%; }
+
+.mg2 {
+  margin: 2% 0%; }
+
+.fondo_azul {
+  background-color: #2A3541;
+  color: #fff; }
+
+.icon_footer {
+  font-size: 130%;
+  color: #2065DE;
+  border-radius: 100%;
+  border: 1px solid #2065DE;
+  padding: 5%;
+  margin-left: 15%; }
+
+.pdleft {
+  padding-left: 73%; }
+
+.pdlefmas {
+  padding-left: 87%; }
+
+.fondo_contc {
+  background-image: url("../image/large.jpg");
+  background-size: cover; }
+
+.form-horizontal {
+  margin: 13% 26%;
+  background: #fff;
+  border-top: 6px solid #337AB7;
+  padding: 2% 5% 0%; }
+
+.form-horizontal .control-label {
+  text-align: left; }
+
+.form-group > p {
+  margin-bottom: 0%;
+  text-decoration: underline; }
+
+span {
+  color: red; }
+
+strong {
+  color: #2065DE; }
+
+@media (max-width: 500px) {
+  .form-horizontal {
+    margin: 20% 10%; } }
+
+/*# sourceMappingURL=main.css.map */

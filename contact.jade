@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width,initial-scale=1")
+		title=contacto
+		link(rel="stylesheet" href="css/font-awesome.min.css")
+		link(rel="stylesheet" href="css/icomoon.css")
+		link(rel="stylesheet" href="css/bootstrap.min.css")
+		script(type="text/javascript" src="js/jquery.easing.min.js")
+		script(type="text/javascript" src="js/booststrap.min.js")
+		link(rel="stylesheet" href="css/main.css")
+	body.fondo_contc
+		form.form-horizontal
+			.h1.btp.text-center Formulario User Testing 360
+			hr.btp
+			.form-group
+				label.col-sm-4.control-label(for='inputEmail3') Nombre <span> * </span>
+				.col-sm-8
+					input.form-control#inputEmail3(type='text' placeholder='nombre')
+			.form-group
+				label.col-sm-4.control-label(for='inputPassword3') Email<span> * </span>
+				.col-sm-8
+					input.form-control#inputEmail3(type='email' placeholder='Email')
+			.form-group
+				label.col-sm-4.control-label(for='inputPassword3') Deja tu URL <span> * </span>
+				.col-sm-8
+					textarea.form-control#inputEmail3(type='text' placeholder='www.' rows='3')
+			.form-group.text-center
+				button.btn.btn-sm.btn-primary.pull-left Enviar Email
+			.form-group
+				P.pull-left Pawer by Equipo Laboratoria
+				p.pull-right Report abuse
